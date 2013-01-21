@@ -3,7 +3,9 @@ static-combiner-php
 
 Script that combines static files (JS/CSS), with a file cache functionality. Implemented with PHP.
 
-It is originally based on the code on this URL:
+It is originally based on the code on this URL.
+Special thanks to rakaz for providing a neat solution.
+
 http://rakaz.nl/2006/12/make-your-pages-load-faster-by-combining-and-compressing-javascript-and-css-files.html
 
 Thanks, -ashiina (https://github.com/ashiina)
@@ -44,7 +46,7 @@ wget http://localhost/combine.php?type=css&files=common.css,bootstrap.css,lib/mo
 License
 ------------
 
-Please refer to the license stated in the source code.
+This program is issued under the GPL license.
 
 
 
