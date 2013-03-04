@@ -170,12 +170,7 @@
 	
 
 function _minify (&$contents) {
-	// Remove comments
-	$contents = preg_replace('!/\*[^*]*\*+([^/][^*]*\*+)*/!', '', $contents);
-	// Remove space after colons
-	$contents = str_replace(': ', ':', $contents); 
-	// Remove whitespace
-	$contents = str_replace(array("\r\n", "\r", "\n", "\t", '  ', '    ', '    '), '', $contents);
+
 }
 
 
